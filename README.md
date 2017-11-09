@@ -1,17 +1,17 @@
-#nohow
+# nohow
 
 **General Python functions you may find useful**
 
 ----------
 
-##Contents
-###1. Math Operation Functions
-####Importing it
+## Contents
+### 1. Math Operation Functions
+#### Importing it
  
 >
 	from nohow.MOF import *
 
-####Data type conversion
+#### Data type conversion
 **ii** - *Integer Index* - Get single digit substring of integer - (returns int)
 >
 	from nohow.MOF import ii
@@ -23,13 +23,13 @@
 	iis(
 
 
-###2. Text Editing Functions
+### 2. Text Editing Functions
 
-####Importing it
+#### Importing it
  >
 	from nohow.MOF import *
 
-####Formatting Strings
+#### Formatting Strings
 **cfp** - *Chopped Format Print* - prints long strings without splitting words with the new line
 >
 	from nohow.TEF import cfp

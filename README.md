@@ -10,11 +10,13 @@
 	from nohow.MOF import *
 
 #### Data type conversion
-**ii** - *Integer Index* - Get single digit substring of integer - (returns int)
+**ii(integer,index)** - *Integer Index* - Get single digit substring of integer - (returns int)
+
 	from nohow.MOF import ii
 	ii(
 
-**iis** - *Integer Index to String* - Get single digit substring of integer - (returns str)
+**iis(integer,index)** - *Integer Index to String* - Get single digit substring of integer - (returns str)
+
 	from nohow.MOF import iis
 	iis(
 
@@ -25,13 +27,15 @@
 	from nohow.MOF import *
 
 #### Formatting Strings
-**cfp** - *Chopped Format Print* - prints long strings without splitting words with the new line
+**cfp(text)** - *Chopped Format Print* - prints long strings without splitting words with the new line
+
 	from nohow.TEF import cfp
 	cfp("rrrrrrreeeeeeeaaaaaaalllllllyyyyyyy lllllllooooooonnnnnnnggggggg ssssssstttttttrrrrrrriiiiiiinnnnnnnggggggg")
 	>>>
 	rrrrrrreeeeeeeaaaaaaalllllllyyyyyyy lllllllooooooonnnnnnnggggggg
 	ssssssstttttttrrrrrrriiiiiiinnnnnnnggggggg
 
-**rls** - *Remove Leading Spaces* - does what the name says
+**rls(text)** - *Remove Leading Spaces* - does what the name says
+
 	from nohow.TEF import rls
 	print(rls("    ForReference"))

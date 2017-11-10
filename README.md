@@ -13,7 +13,10 @@
 **ii(integer,index)** - *Integer Index* - Get single digit substring of integer - (returns int)
 
 	from nohow.MOF import ii
-	ii(
+	ii(331,2)
+	
+	>>>
+	1
 
 **iis(integer,index)** - *Integer Index to String* - Get single digit substring of integer - (returns str)
 
